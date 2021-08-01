@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandleMyFate</title>
+    <style>
+        .topbar{
+           width: 1500px;
+           margin: 0 auto;
+           height: 30px;
+           background-color:aqua; 
+        }
+        #topbar2{
+
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #logo{
+            margin-top: 5;
+            margin-left: 8px;
+            height: 90px;
+            width: 270px;
+        }
+        #loginimg{
+            height: 50px;
+            width: 50;
+            margin-left: 400px;
+           
+        }
+        #login{
+            
+        }
+        #placeholder{
+            height: 700px;
+            width: 100%;
+            position: relative;    
+        }
+        
+        #About{
+            
+
+        }
+        #Contact{
+            
+        }
+
+        
+             
+
+        
+    </style>
+    </head>
+<body>
+    <img id="logo" src="refer.png">
+    
+    <img id="loginimg" src="Anonymous.png">
+    
+   
+    <div class="topbar">
+    
+        <h2 id="About" class="topbar-section">ABOUT</h2>
+        
+    </div>
+        
+    <img id="placeholder" src="Rejoice.png">
+    
+
+
+
+</body>
+</html>   
