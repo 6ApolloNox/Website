@@ -1,0 +1,61 @@
+<html>
+    <head><title>learn</title>
+        <script type = "text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+        <script type = "text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js'></script>
+
+        <script src="jqueryui/jquery-ui.js"></script>
+        <link href="jqueryui/jquery-ui.css" rel="stylesheet">
+        
+    </head>
+    
+<style>
+     .c2{
+         height: 100px; width: 100px;
+         background-color: blue;
+         position: absolute;
+         right: 700px;
+     }
+     .display{
+         display: none;
+     }
+  
+</style>
+    <body>
+        <div id="c1"></div>
+        <div class="c2">
+            <p class="display">This is just for experiment purpose.</p>
+        </div>
+
+        <form>
+            <p>Username: <input type="text" placeholder="Your Name"></p>
+            <p>Gender: male <input type="radio" name="age" value="male"> Female <input type="radio" name="age" value="female"></p>
+            <p>Email: <input type="email" placeholder="email@something.com"></p>
+            <p>Preference
+                <select>
+                    <option>part time</option>
+                    <option>full time</option>
+                </select>
+            </p>
+            <p><input type="submit" value="Submit here"></p>
+        </form>
+            
+        <script type="text/javascript">
+
+        $(".c2").click(function(){
+            $(this).animate({
+                width: "450px",
+                height: "550px",     
+            }, 2000 , function(){
+                $(this).css("background-color" , "cornflowerblue")
+            });
+        });
+        $(".c2").click(function(){
+            $(".display").fadeIn();
+        });
+
+        
+
+        </script>
+
+    </body>
+</html>
